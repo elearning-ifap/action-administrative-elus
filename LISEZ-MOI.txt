@@ -1,0 +1,29 @@
+VERSION : v6.22.0
+NOYAU : 1.8.1
+ACTION ADMINISTRATIVE — VERSION GITHUB
+
+Déploiement GitHub Pages
+------------------------
+1. Déposer l’intégralité du contenu de ce dossier à la racine du dépôt GitHub.
+2. Dans GitHub : Settings > Pages.
+3. Choisir « Deploy from a branch », branche main, dossier /(root).
+4. Ouvrir l’URL GitHub Pages fournie par GitHub.
+
+Reprise hors Moodle
+--------------------
+La progression est conservée dans le navigateur via localStorage : dernier écran, sous-étape, phases terminées, positionnements, réponses formatives et réponses aux 15 situations finales. La reprise est donc propre à l’appareil et au navigateur utilisés.
+
+Compatibilité de reprise
+------------------------
+Le noyau 1.8.1 lit et migre automatiquement l’ancien format de reprise AA6 des versions précédentes. Une mise à jour du site ne doit donc pas effacer l’avancement déjà enregistré dans le même navigateur.
+
+Important
+---------
+Cette version GitHub n’envoie aucune donnée à Moodle. Elle est destinée à la démonstration, la recette et la consultation web.
+
+Contenu
+-------
+- index.html
+- assets/images : 9 images JPG
+- assets/pdf : 12 ressources PDF
+- .nojekyll : évite tout traitement Jekyll inutile
